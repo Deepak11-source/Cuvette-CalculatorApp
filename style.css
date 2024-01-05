@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+body {
+    display: flex;
+    /* width: 100%; */
+    padding: 21px 466px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 26px;
+    background: #3B4664;
+}
+
+.calc {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+input[type="text"] {
+    height: 142px;
+    width: 500px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: right;
+    border-radius: 12px;
+    background: #181F32;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-right: 35px;
+}
+
+form {
+    width: 536px;
+    height: 450px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #252D44;
+}
+
+form .buttons {
+    margin: 48px 35px 0 35px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+input[type="button"] {
+    width: 100px;
+    height: 60px;
+    font-size: 22px;
+    line-height: 55px;
+    border-radius: 12px;
+    border: 1px solid #EAE3DB;
+    background: #EAE3DB;
+    flex-shrink: 0;
+    color: #3B4664;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+input[type="button"].wide-button {
+    width: 222.436px;
+    color: white;
+    text-align: center;
+    font-family: Inter;
+    font-size: 23.048px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+input#clear {
+    background: #647299;
+    ;
+    border: 1px solid #647299;
+    color: white;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.wide-buttons {
+    margin: 22px 35px 0 35px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+input#reset {
+    background: #647299;
+    ;
+    border: 1px solid #647299;
+    color: white;
+}
+
+input#equal {
+    background: #ff3d00;
+    border: 1px solid #b32a00;
+    color: white;
+}

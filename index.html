@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="calc">calc</div>
+    <input type="text" id="display" name="display" disabled/>
+    <form name="forms">            
+        <div class="buttons">
+            <input type="button" id="seven" value="7">
+            <input type="button" id="eight" value="8">
+            <input type="button" id="nine" value="9">
+            <input type="button" id="clear" value="DEL">
+            <input type="button" id="four" value="4">
+            <input type="button" id="five" value="5">
+            <input type="button" id="six" value="6">
+            <input type="button" id="add" value="+">
+            <input type="button" id="one" value="1">
+            <input type="button" id="two" value="2">
+            <input type="button" id="three" value="3">
+            <input type="button" id="subs" value="-">
+            <input type="button" id="dot" value=".">
+            <input type="button" id="zero" value="0">
+            <input type="button" id="divide" value="/">
+            <input type="button" id="multi" value="x">
+        </div>
+        <div class="wide-buttons">     
+            <input type="button" id="reset" value="Reset" class="wide-button">
+            <input type="button" id="equal" value="=" class="wide-button">
+        </div>
+    </form>
+    <script src="./app.js"></script>
+</body>
+</html>
